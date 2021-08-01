@@ -1,0 +1,105 @@
+html, body{
+  height:100%;
+  margin:0;
+  background: #FAFAFA; 
+  overflow:hidden;
+}
+#pomodoro{
+  margin-top: 10%;
+}
+.FontWhite{
+  color:white;
+  font-size:25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#frame{
+  text-align: center;
+  background: #5DAEFF;
+  border: 1px solid #5DAEFF;
+  width: 70px;
+  margin: 15%;
+  padding:10px;
+  margin-bottom:0;
+  -ms-transform: translate(-40px, 0px); /* IE 9 */
+   	-webkit-transform: translate(-40px, 0px); /* Safari */
+    transform: translate(-40px, 0px);
+}
+#signal{    
+  margin: 15%;
+  margin-top:0;
+  -ms-transform: translate(-35px, 0px); /* IE 9 */
+   	-webkit-transform: translate(-35px, 0px); /* Safari */
+    transform: translate(-5px, 0px);
+  margin-bottom:0;
+  text-align: center;
+  width: 0;
+  /*border: 2px solid #000;*/
+  border-top: 10px solid #5DAEFF;
+  border-right: 10px solid transparent;
+  /*border-bottom: 100px solid green;*/
+  border-left: 10px solid transparent;
+}
+
+#path{
+  height: 10px;
+  width: 70%;
+  border-radius:50px;
+  background: #7FD181;
+}
+.pos{
+  margin: 15%;
+  margin-top: 0%;
+  margin-bottom: 1%;
+}
+
+#figure{
+  animation-timing-function: linear;  
+}
+
+@keyframes movp{
+  0%   {-ms-transform: translate(0px, 0px); /* IE 9 */
+   	-webkit-transform: translate(0px, 0px); /* Safari */
+    transform: translate(0px, 0px);}
+  100%  {-ms-transform: translate(68%, 0px); /* IE 9 */
+   	-webkit-transform: translate(68%, 0px); /* Safari */
+    transform: translate(68%, 0px);}
+}
+@keyframes movm{  
+  0%  {-ms-transform: translate(68%, 0px); /* IE 9 */
+   	-webkit-transform: translate(68%, 0px); /* Safari */
+    transform: translate(68%, 0px);}
+  100%   {-ms-transform: translate(0px, 0px); /* IE 9 */
+   	-webkit-transform: translate(0px, 0px); /* Safari */
+    transform: translate(0px, 0px);}
+}
+
+#opc{
+  text-align:center;
+}
+section{  
+  margin: 5%;
+  margin-top:1%;
+  display: inline-block;
+  text-align: center;
+}
+h2{
+  margin:1%;
+  font-family: 'Montserrat', sans-serif;
+}
+button{
+  border:0;
+  margin:0;
+  font-size:20px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+}
+.tam{
+  font-size:20px;
+  font-family: 'Montserrat', sans-serif;
+}
+#start{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}

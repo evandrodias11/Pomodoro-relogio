@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Relogio</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<body>    
+  <div id="pomodoro">
+    <div id="figure">
+      <div id="frame">
+        <span id="minutos" class="FontWhite">00</span><span   id="segundos" class="FontWhite">:00</span>
+        </div>
+        <div id="signal">       
+        </div>
+    </div>      
+    <div id="path" class="pos"></div>    
+  </div>   
+  <div id="opc" class="pos">
+    <section>
+      <h2>Tempo ativo (min)</h2>
+      <button id="s-" onclick="sm()">-</button><span id="session" class="tam"> 2 </span><button id="s+" onclick="sp()">+</button>
+    </section>
+    <button id="start" onclick="carga()">START</button>
+    <button id="start" onclick="reset()">RESET</button>
+    <section>
+      <h2>Tempo de intervalo (min)</h2>
+      <button id="b-" onclick="bm()">-</button><span id="break" class="tam"> 2 </span><button id="b+" onclick="bp()">+</button>
+    </section>
+    
+  </div>
+</body>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
